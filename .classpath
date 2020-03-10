@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Resource"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/jcommon-1.0.23/jcommon-1.0.23/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/itext-5.5.6/itextpdf-5.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/itext-5.5.6/itext-pdfa-5.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/itext-5.5.6/itext-xtra-5.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/jfreechart-1.0.19/jfreechart-1.0.19/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/pdfbox-2.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/com.lowagie.text_2.1.7.v201004222200.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/xmlworker-5.5.6/xmlworker-5.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/jooho/java_lib/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

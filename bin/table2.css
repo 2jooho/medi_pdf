@@ -1,0 +1,424 @@
+@charset "utf-8";
+.down{
+position: absolute;
+bottom: 10px;
+}
+.title{
+top:10%;
+left:10%;
+padding:15px;
+position:absolute;
+}
+.logo{
+width:720px;
+height:auto;
+
+}
+
+h1{
+font-weight: bold;
+font-size: 20px;
+}
+
+.table1{
+width: 100%;
+border: none;
+border-collapse: separate;
+border-spacing: 2px;
+font-size: 10px;
+}
+
+.th1{
+padding: 5px;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    background: #95ceee;
+    font-weight: normal;
+    text-align:center;
+    text-shadow: 0 1px #FFF;
+    vertical-align: middle;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.tr1{
+height=30px;
+}
+
+.td1{
+  padding: 5px;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    text-align: left;
+    vertical-align: baseline;
+}
+.td1-1{
+  padding: 5px;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    text-align: left;
+    vertical-align: baseline;
+
+text-align: center;
+}
+
+h3 {
+font-size: 15px; font-weight: bold; color: #0082E9; padding:10px 0 10px 0px; margin:0 10dpx;
+}
+
+
+.chart{
+width:760px;
+height:390px;
+}
+.table2{
+border-collapse: collapse;
+width: 100%;
+font-size: 10px;
+height:auto;
+}
+.table2 th {
+      background: #95ceee;
+      text-align: center;
+	font-size:12px;
+	font-weight:bold;
+    }
+    .table2 th, .table2 td {
+      padding: 10px;
+      border: 1px solid #ddd;
+text-align: center;
+    }
+.consti{
+width:270px;
+height:190px;
+ text-align: left;
+
+}
+.table3{
+width: 100%;
+height:auto;
+font-size: 10px;
+border: 2px solid #ddd;
+margin:0px;
+background:D:\\jooho\\html_image\\DNA\\titlelogo.jpg;
+}
+.td3{
+padding:20px;
+padding-bottom:0px;
+height:auto;
+width:40%;
+}
+.td3-1{
+padding:15px;
+width:60%;
+}
+.consti_p
+{
+ text-align: left;
+font-size: 9px;
+font-weight: lighter;
+line-height:140%;
+}
+.level1_title{
+color:#73c1ab;
+ text-align: left;
+font-size: 20px;
+font-weight: bold;
+line-height:200%;
+float:left;
+padding-bottom:15px;
+padding-right:17px;
+}
+.byunlogo{
+width:70px;
+height:45px;
+float:right;
+}
+.right{
+text-align:right;
+float:right;
+align:right;
+margin-right:0px;
+}
+.left{
+vertical-align: left;
+text-align:left;
+float:left;
+align:left;
+margin-left:0px;
+}
+.hidden{
+width:100%;
+border:0px solid white; 
+
+}
+.text{
+font-size: 14px;
+text-align:center;
+font-weight: lighter;
+line-height:200%;
+
+}
+.text2{
+font-size: 9px;
+text-align:left;
+font-weight: lighter;
+line-height:200%;
+}
+.text3{
+font-size: 15px;
+font-weight: lighter;
+}
+.hr1{
+color:gray;
+size:3;
+ width:80%;
+}
+
+.level1{
+width:200px;
+height:160px;
+padding:10px;
+float:left;
+}
+.yang_td{
+padding:10px;
+width:80%;
+padding-bottom:0px;
+padding-top:7px;
+}
+.table4{
+border-spacing: 1px;
+margin: 2px 1px;
+height:auto;
+width: 100%;
+border: 2px solid #ddd;
+text-align: left;
+margin: 20px 10px;
+}
+.table4_p{
+font-size: 11px;
+font-weight: lighter;
+line-height:200%;
+
+}
+
+table.type05 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin: 20px 10px;
+    width: 100%;
+}
+table.type05 th {
+    width: 90px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+}
+table.type05 td {
+    width: 150px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.food1{
+height:80px;
+width: 65px;
+
+}
+.page41{
+border-collapse: separate;
+    border-spacing: 1px;
+    text-align: right;
+    line-height: 1.5;
+    margin: 5px 5px;
+    width: 200px;
+
+ 
+}
+.page4{
+border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 5px 5px;
+    width: 100%;
+
+}
+
+.page4_td{
+ width: 150px;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.page4_td1{
+ width: 90px;
+margin_right:15px;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.goodimg{
+height:20px;
+width: 20px;
+}
+.good{
+font-size: 17px;
+text-align:center;
+font-weight: lighter;
+line-height:200%;
+color:green;
+}
+.bad{
+font-size: 17px;
+text-align:center;
+font-weight: lighter;
+line-height:200%;
+color:red;
+}
+.toptitle{
+padding-top:20px;
+padding-left:20px;
+}
+.toptitle2{
+padding-top:20px;
+padding-left:20px;
+padding-bottom:15px;
+}
+.toptitle3{
+padding-top:15px;
+padding-left:20px;
+padding-bottom:10px;
+}
+.toptitle4{
+padding-top:0px;
+padding-left:20px;
+padding-bottom:20px;
+}
+.line{
+float:left;
+background-color:#95ceee;
+width:5px;
+height:30px;
+margin:40px;
+}
+.line2{
+float:left;
+width:auto;
+height:30px;
+}
+.line3{
+background-color:#95ceee;
+width:100%;
+height:3px;
+}
+.level{
+background-color:#efeff0;
+width:100%;
+height:150px;
+position:relative;
+}
+
+.level_text{
+position:absolute;
+padding-top:20px;
+padding-left:60px;
+font-size:25px;
+font-weight:bold;
+color:#5b9ec8;
+}
+.level_text2{
+position:absolute;
+padding-top:10px;
+padding-left:60px;
+padding-right:30px;
+padding-bottom:7px;
+font-size:12px;
+font-weight: lighter;
+line-height:200%;
+}
+.human{
+width:40%;
+height:100%;
+float:left;
+border:0px solid white; 
+
+
+}
+.result_title{
+color:#73c1ab;
+ text-align: left;
+font-size: 20px;
+font-weight: bold;
+float:left;
+
+}
+.block{
+width:95%;
+height:30%;
+float:left;
+margin:5px;
+}
+.sub{
+float:left;
+width:95%;
+padding-top:30px;
+padding-left:110px;
+}
+.sub1_1{
+float:left;
+width:95%;
+padding-top:30px;
+padding-left:25px;
+}
+.sub2{
+padding-top:10px;
+padding-left:150px;
+}
+.sub2_2{
+padding-top:10px;
+padding-left:70px;
+}
+.block2{
+width:95%;
+height:40%;
+
+margin:5px;
+}
+.4page_block{
+width:95%;
+height:30%;
+margin:5px;
+align:center;
+}
+.sub3{
+float:left;
+width:50%;
+padding-top:30px;
+padding-left:110px;
+}
+.sub3_3{
+float:left;
+width:50%;
+padding-top:30px;
+padding-left:25px;
+}
+.sub4{
+float:left;
+padding-top:20px;
+padding-left:60px;
+}
+.line4_1{
+padding-top:1px;
+background-color:#000000;
+width:110px;
+height:1px;
+vertical-align: middle
+}

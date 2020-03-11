@@ -42,9 +42,9 @@ public  class pdf_table  {
 	
 	//DB연동관련 변수
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/DB이름?serverTimezone=UTC";
-    static final String USERNAME = "";
-    static final String PASSWORD = "";
+    static final String DB_URL = "jdbc:mysql://best54.cafe24.com/best54?serverTimezone=UTC";
+    static final String USERNAME = "best54";
+    static final String PASSWORD = "medi1607!";
 
     //PDF 설정 함수(css, 폰트, 사이즈 등)
 	
@@ -61,7 +61,7 @@ public  class pdf_table  {
         
         // PdfWriter 생성
         PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(mix.addfolder()+"\\(medi)"+id+".pdf")); //메디프레소 버전 pdf 파일 이름
-        // PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("D:\\jooho\\(메디프레소).pdf"));
+        // PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("D:\\jooho\\pdf생성 실행파일 관련\\(메디프레소).pdf"));
  
         // 파일 다운로드 설정
         String fileName = URLEncoder.encode("한글파일명", "UTF-8"); // 파일명이 한글일 땐 인코딩 필요
@@ -79,7 +79,7 @@ public  class pdf_table  {
         cssResolver.addCss(cssFile);*/
         
        CSSResolver cssResolver = new StyleAttrCSSResolver();
-    	CssFile cssFile = helper.getCSS(new FileInputStream("D:\\jooho\\html_image\\pdf_use\\table2.css"));//css 파일 위치 및 파일
+    	CssFile cssFile = helper.getCSS(new FileInputStream("D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\table2.css"));//css 파일 위치 및 파일
     	cssResolver.addCss(cssFile);
         
        /* CSSResolver cssResolver = new StyleAttrCSSResolver();
@@ -93,7 +93,7 @@ public  class pdf_table  {
     	
     	// HTML, 폰트 설정
     	XMLWorkerFontProvider fontProvider = new XMLWorkerFontProvider(XMLWorkerFontProvider.DONTLOOKFORFONTS);
-    	fontProvider.register("D:\\jooho\\html_image\\pdf_use\\NanumSquareB.ttf", "NanumGothicBold"); // MalgunGothic은 alias,  //폰트 위치및 굵기설정
+    	fontProvider.register("D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\NanumSquareB.ttf", "NanumGothicBold"); // MalgunGothic은 alias,  //폰트 위치및 굵기설정
     	//  fontProvider.register(aa, "NanumGothicBold");
     	CssAppliers cssAppliers = new CssAppliersImpl(fontProvider);
       
@@ -702,7 +702,7 @@ score.add(Math.round(100-(100*(Float.parseFloat(sql_areata)-0.661))/0.6146));*/
               //글씨체
                 + "<body style='font-family: NanumGothicBold;'class='down'>"
                //상단 타이틀
-                +"<img src='D:\\jooho\\html_image\\DNA\\title0.jpg'/>"
+                +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\DNA\\title0.jpg'/>"
        
                 +"<div class='toptitle'>"
                 //대제목 구분선
@@ -866,49 +866,49 @@ score.add(Math.round(100-(100*(Float.parseFloat(sql_areata)-0.661))/0.6146));*/
 //2페이지
 //상단 타이틀
 +"<div>"
-+"<img src='D:\\jooho\\DNA PDF관련\\DNA키트리뉴얼/1_상단.jpg' style='padding-bottom:10px;' >"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\DNA PDF관련\\DNA키트리뉴얼/1_상단.jpg' style='padding-bottom:10px;' >"
 +"</img>"
 +"</div>"
 +"<div style='margin:20px;height:100%;position:relative;'>"
 //사람이미지
 
 +"<div class='human'>"
- +"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_사람2.jpg' style='hegiht:1200px;width:400px;position:fixed;' >"+"</img>" 
+ +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_사람2.jpg' style='hegiht:1200px;width:400px;position:fixed;' >"+"</img>" 
  +"<div class='red_point'style='padding-left:"+(180-500+left[0])+"px;padding-bottom:"+760+";'>"
- +"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
+ +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(190-500+left[1])+"px;padding-bottom:"+970+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(230-500+left[2])+"px;padding-bottom:"+785+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(285-500+left[3])+"px;padding-bottom:"+860+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_혈관.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_혈관.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(92-500+left[4])+"px;padding-bottom:"+1000+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(170-500+left[5])+"px;padding-bottom:"+1650+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(190-500+left[6])+"px;padding-bottom:"+2600+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(227-500+left[7])+"px;padding-bottom:"+4750+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(190-500+left[8])+"px;padding-bottom:"+8600+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(165-500+left[9])+"px;padding-bottom:"+16550+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(190-500+left[10])+"px;padding-bottom:"+33050+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
 +"<div class='red_point'style='padding-left:"+(190-500+left[11])+"px;padding-bottom:"+65570+";'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;hegiht:30px;'>"+"</img>" 
 +"</div>"
  +"</div>"
 
@@ -917,7 +917,7 @@ score.add(Math.round(100-(100*(Float.parseFloat(sql_areata)-0.661))/0.6146));*/
 				  +"<div class='red_point'style='padding-top:0px;padding-right:0px;padding-left:"
 				  +Integer.parseInt(left.get(3).toString())+"px;padding-bottom:"+Integer.
 				  parseInt(bottom.get(3).toString())+"px;'>"
-				  +"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\"+img.get(3).toString()+"
+				  +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\"+img.get(3).toString()+"
 				  .png' style='width:35px;hegiht:35px;'>"+"</img>" +"</div>"
 				 */
 
@@ -931,7 +931,7 @@ score.add(Math.round(100-(100*(Float.parseFloat(sql_areata)-0.661))/0.6146));*/
 +"<div class='sub' style='padding-top:60px;'>"
  
  +"<div style='float:left;' >"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
 +"</div>"
 
  +"<div class='result_title'>" 
@@ -957,7 +957,7 @@ score.add(Math.round(100-(100*(Float.parseFloat(sql_areata)-0.661))/0.6146));*/
 +"<div class='sub'>"
 
  +"<div style='float:left;' >"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
 +"</div>"
  
  +"<div class='result_title'>"
@@ -987,7 +987,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
  
 +"<div class='sub'>"
  +"<div style='float:left;' >"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\1_빨간점.png' style='width:30px;height:30px;'>" + "</img>"
 +"</div>"
 
  +"<div class='result_title'>" 
@@ -1034,7 +1034,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"</div>"
 
 +"<div style='float:left;'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\DNA\\Level1네모.png' style='width:100px;height:20px;'></img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\DNA\\Level1네모.png' style='width:100px;height:20px;'></img>"
 +"</div>"
 
 +"</div>"
@@ -1062,7 +1062,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"<div class='level1_title'>"
 +"<p style='color:#fdbf6a;'>Level  2</p></div>"
 +"<div style='float:left;'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\DNA\\Level2네모.png'style='width:100px;height:20px;'></img></div>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\DNA\\Level2네모.png'style='width:100px;height:20px;'></img></div>"
 +"</div>"
 +"<p class='consti_p'>"
 +"level 2는 dna검사 결과  health, hair, skin 분야 에서 관심이 있으며, 각각의 유전자를 분석했을때 위험인자 유전자형이 섞여있습니다.\r\n" + 
@@ -1086,7 +1086,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"<div class='level1_title'>"
 +"<p style='color:#f3743e;'>Level  3</p></div>"
 +"<div style='float:left;'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\DNA\\Level3네모.png'style='width:100px;height:20px;'></img></div>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\DNA\\Level3네모.png'style='width:100px;height:20px;'></img></div>"
 +"</div>"
 +"<p class='consti_p'>"
 +"level 3는 dna검사 결과  health, haitr, skin 분야 에서 주의가 있으며, 각각의 유전자를 분석했을때 위험인자 유전자형이 섞여있습니다.\r\n" + 
@@ -1110,7 +1110,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"<div class='level1_title'>"
 +"<p style='color:#f15b4e;'>Level  4</p></div>"
 +"<div style='float:left;'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\DNA\\Level4네모.png' style='width:100px;height:20px;'></img></div>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\DNA\\Level4네모.png' style='width:100px;height:20px;'></img></div>"
 +"</div>"
 +"<p class='consti_p'>"
 +"level 4는 dna검사 결과  health, hair, skin 분야 에서 주의가 있으며, 각각의 유전자를 분석했을때 위험인자 유전자형이 상당수 섞여있습니다.\r\n" + 
@@ -1128,7 +1128,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 //4페이지
 //상단타이틀
 //+"<img style='padding-top:15px;' src='http://best54.cafe24.com/medi/downloadFile/title0.jpg'>"
-+"<img style='padding-top:15px;' src='D:\\jooho\\html_image\\DNA\\title0.jpg'>"
++"<img style='padding-top:15px;' src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\DNA\\title0.jpg'>"
 +"</img>"
 
 +"<div style='padding-top:20px;' class='toptitle4'>"
@@ -1195,7 +1195,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 //상단 타이틀
 
 //+"<img src='http://best54.cafe24.com/medi/downloadFile/title1.jpg'></img>"
-+"<img src='D:\\jooho\\html_image\\DNA\\title1.jpg'></img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\DNA\\title1.jpg'></img>"
 +"<div style='height:100%;'>"
 //맞춤검사결과 부분
  +"<div class='4page_block'>"
@@ -1203,7 +1203,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"<div class='sub1_1' style='padding-top:10px;'>"
  
  +"<div style='float:left;' >"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
  +"</div>"
 
  +"<div class='result_title'>"
@@ -1230,7 +1230,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 +"<div>"
 
  +"<div style='float:left;' >"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
 +"</div>"
 
  +"<div class='result_title' >"
@@ -1254,7 +1254,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
  +"<div style='padding-top:30px;'>"
  
   +"<div style='float:left;' >"
- +"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
+ +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
   +"</div>"
  
   +"<div class='result_title'>"
@@ -1280,7 +1280,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 
 +"<div>"
  +"<div style='float:left;'>"
-+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
++"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
  +"</div>"
 
  +"<div class='result_title'>" 
@@ -1302,7 +1302,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
  +"<div style='padding-top:30px;'>"
  
   +"<div style='float:left;' >"
-  +"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
+  +"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\돋보기아이콘.png' style='width:30px;height:30px;'>" + "</img>"
   +"</div>"
   
   +"<div class='result_title'>" 
@@ -1326,7 +1326,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	+"<div class='sub1_1' style='padding-top:30px;'>"
 	
 	+"<div style='float:left;' >"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\별아이콘.png' style='width:30px;height:30px;'>" + "</img>"
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\별아이콘.png' style='width:30px;height:30px;'>" + "</img>"
 	+"</div>"
 	
 	+"<div class='result_title'>"
@@ -1341,7 +1341,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	//height 300 티캡슐 내용추가 img 위치 변경, padding-top삭제 
 	//이미지1
 	+"<div style='width:130px;height:250px;padding-top:20px;'>"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[0]+".jpg' style='width:130px;height:220px;'>" 
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[0]+".jpg' style='width:130px;height:220px;'>" 
 	+ "</img>"
 	+"</div>"
 	//이미지1 소제목
@@ -1363,7 +1363,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	+"<div style='float:left;padding-left:10px;'>"
 	
 	+"<div style='width:130px;height:250px;padding-top:20px;'>"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[1]+".jpg' style='width:130px;height:220px;'>" 
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[1]+".jpg' style='width:130px;height:220px;'>" 
 	+ "</img>"
 	+"</div>"
 	
@@ -1385,7 +1385,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	+"<div style='float:left;padding-left:10px;'>"
 	
 	+"<div style='width:130px;height:250px;padding-top:20px;'>"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[2]+".jpg' style='width:130px;height:220px;'>" 
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\evertea\\"+evertea[2]+".jpg' style='width:130px;height:220px;'>" 
 	+ "</img>"
 	+"</div>"
 	
@@ -1407,7 +1407,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	//이미지3
 	+"<div style='float:left;padding-left:10px;'>"
 	+"<div style='width:130px;height:250px;padding-top:20px;'>"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\"+product[0]+".jpg' style='width:130px;height:220px;'>" 
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\"+product[0]+".jpg' style='width:130px;height:220px;'>" 
 	+ "</img>"
 	+"</div>"
 	
@@ -1419,7 +1419,7 @@ complication[5]+"&nbsp;"+complication[6]+"&nbsp;"+complication[7]+"&nbsp;"+compl
 	+"<div style='float:left;padding-left:10px;'>"
 	
 	+"<div style='width:130px;height:250px;padding-top:20px;'>"
-	+"<img src='D:\\jooho\\html_image\\pdf_use\\html_image\\"+product[1]+".jpg' style='width:130px;height:220px;'>" 
+	+"<img src='D:\\jooho\\pdf생성 실행파일 관련\\html_image\\pdf_use\\html_image\\"+product[1]+".jpg' style='width:130px;height:220px;'>" 
 	+ "</img>"
 	+"</div>"
 	

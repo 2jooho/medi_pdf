@@ -16,9 +16,9 @@ import java.sql.ResultSetMetaData;
 //db추출 알고리즘
 public class category {
 	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/DB이름?serverTimezone=UTC";
-    static final String USERNAME = "";
-    static final String PASSWORD = "";
+    static final String DB_URL = "jdbc:mysql://best54.cafe24.com/best54?serverTimezone=UTC";
+    static final String USERNAME = "best54";
+    static final String PASSWORD = "medi1607!";
     
     public  String data[]=new String[13];
     public  String complication[]=new String[15];

@@ -29,9 +29,9 @@ import java.sql.*;
 
 public class jfreechart {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/DB이름?serverTimezone=UTC";
-    static final String USERNAME = "";
-    static final String PASSWORD = "";
+    static final String DB_URL = "jdbc:mysql://best54.cafe24.com/best54?serverTimezone=UTC";
+    static final String USERNAME = "best54";
+    static final String PASSWORD = "medi1607!";
 /*  public static void main(String[] args) {
         writeChartToPDF2();
     }*/

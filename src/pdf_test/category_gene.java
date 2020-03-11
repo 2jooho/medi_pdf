@@ -9,9 +9,9 @@ import java.util.ArrayList;
 //영어 유전자별->한글 변환 클래스
 public class category_gene {
 	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/DB이름?serverTimezone=UTC";
-    static final String USERNAME = "";
-    static final String PASSWORD = "";
+    static final String DB_URL = "jdbc:mysql://best54.cafe24.com/best54?serverTimezone=UTC";
+    static final String USERNAME = "best54";
+    static final String PASSWORD = "medi1607!";
     public ArrayList name_gene=new ArrayList();
     public ArrayList genotype=new ArrayList();
     public ArrayList marker_result=new ArrayList();

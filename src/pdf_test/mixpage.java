@@ -24,9 +24,9 @@ import java.util.Map;
 public class mixpage {
 	
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/DB이름?serverTimezone=UTC";
-    static final String USERNAME = "";
-    static final String PASSWORD = "";
+    static final String DB_URL = "jdbc:mysql://best54.cafe24.com/best54?serverTimezone=UTC";
+    static final String USERNAME = "best54";
+    static final String PASSWORD = "medi1607!";
     
    static String sql_url=null;
     static String fileName=null;
@@ -84,7 +84,7 @@ public class mixpage {
         gui gui=new gui();
         String title=gui.output();
         String title2=gui.output2();
-        String path = "D:\\jooho\\pdf_file_total\\"+title+"_"+title2;
+        String path = "D:\\jooho\\고객 유전자pdf파일\\"+title+"_"+title2;
 
         File Folder = new File(path);
         if (!Folder.exists()) {

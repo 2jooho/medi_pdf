@@ -1,12 +1,12 @@
-<img src="./readme_img/java" width="250px" height="250px" alt="java"></img><br/>
+<img src="./readme_img/java.png" width="250px" height="250px" alt="java"></img><br/>
 
-# ÀÚ¹Ù·Î ¸¸µç °³ÀÎ ¸ÂÃã PDF »ý¼º EXE ½ÇÇàÆÄÀÏ
+# ìžë°”ë¡œ ë§Œë“  ê°œì¸ ë§žì¶¤ PDF ìƒì„± EXE ì‹¤í–‰íŒŒì¼
 
-½ÇÇàÆÄÀÏÀ» ÅëÇØ À¯ÀüÀÚ Å°Æ® ¹ÙÄÚµå¹øÈ£¿Í ÀÌ¸§À» ÀÔ·Â ½Ã ÇØ´çÇÏ´Â »ç¶÷ÀÇ À¯ÀüÀÚ ±â¹Ý °³ÀÎ ¸ÂÃã ½ÄÇ° & Á¦Ç° ÃßÃµ pdf°¡ ÁöÁ¤µÈ Æú´õ¿¡ »ý¼º
+ì‹¤í–‰íŒŒì¼ì„ í†µí•´ ìœ ì „ìž í‚¤íŠ¸ ë°”ì½”ë“œë²ˆí˜¸ì™€ ì´ë¦„ì„ ìž…ë ¥ ì‹œ í•´ë‹¹í•˜ëŠ” ì‚¬ëžŒì˜ ìœ ì „ìž ê¸°ë°˜ ê°œì¸ ë§žì¶¤ ì‹í’ˆ & ì œí’ˆ ì¶”ì²œ pdfê°€ ì§€ì •ëœ í´ë”ì— ìƒì„±
 
 ***
 
-# °³¹ßÈ¯°æ 
+# ê°œë°œí™˜ê²½ 
 
 * html
 
@@ -16,19 +16,19 @@
 
 * mysql
 
-* ¶óÀÌºê·¯¸® : itextpdf, jcommon, jfreechart, pdfbox, xmlworker, mysql
+* ë¼ì´ë¸ŒëŸ¬ë¦¬ : itextpdf, jcommon, jfreechart, pdfbox, xmlworker, mysql
 
 ***
 
-# ±â´É ¼Ò°³
+# ê¸°ëŠ¥ ì†Œê°œ
 
-1. ½ÇÇàÆÄÀÏ Å°°ª ÀÔ·Â¶õ ¹× ¿Ï·á   
+1. ì‹¤í–‰íŒŒì¼ í‚¤ê°’ ìž…ë ¥ëž€ ë° ì™„ë£Œ   
 
-<img src="./readme_img/ÀÔ·Â¶õ.png" width="350px" height="100px" alt="½ÇÇàÆÄÀÏ"><img>
-<img src="./readme_img/ÀÔ·Â¿Ï·á.png" width="350px" height="100px" alt="½ÇÇàÆÄÀÏ"><img>
-<img src="./readme_img/ÆÄÀÏlist.png" width="350px" height="100px" alt="pdf"><img><br/>
+<img src="./readme_img/ìž…ë ¥ëž€.png" width="350px" height="100px" alt="ì‹¤í–‰íŒŒì¼"><img>
+<img src="./readme_img/ìž…ë ¥ì™„ë£Œ.png" width="350px" height="100px" alt="ì‹¤í–‰íŒŒì¼"><img>
+<img src="./readme_img/íŒŒì¼list.png" width="350px" height="100px" alt="pdf"><img><br/>
 
-2. »ý¼ºµÈ PDF ÆÄÀÏ
+2. ìƒì„±ëœ PDF íŒŒì¼
 
 <img src="./readme_img/pdf1.png" width="350px" height="500px" alt="pdf"><img>
 <img src="./readme_img/pdf2.png" width="350px" height="500px" alt="pdf"><img>
@@ -36,28 +36,28 @@
 
 ***
 
-# ÄÚµå ¼Ò°³ 
+# ì½”ë“œ ì†Œê°œ 
 
 * jfreechart.java   
 
-Æò±Õ DNA¼öÄ¡¿Í º»ÀÎ DNA¼öÄ¡¸¦ ¶óÀÌºê·¯¸® ÀÌ¿ëÇØ¼­ ±×·¡ÇÁ·Î »ý¼º(JPG)
+í‰ê·  DNAìˆ˜ì¹˜ì™€ ë³¸ì¸ DNAìˆ˜ì¹˜ë¥¼ ë¼ì´ë¸ŒëŸ¬ë¦¬ ì´ìš©í•´ì„œ ê·¸ëž˜í”„ë¡œ ìƒì„±(JPG)
 
 * pdf_table.java   
 
-pdfÆÄÀÏÀ» »ý¼ºÇÏ±â À§ÇØ htmlÀ» ÀÛ¼ºÇÏ°í º¯È¯ÇÏ´Â ºÎºÐ
+pdfíŒŒì¼ì„ ìƒì„±í•˜ê¸° ìœ„í•´ htmlì„ ìž‘ì„±í•˜ê³  ë³€í™˜í•˜ëŠ” ë¶€ë¶„
 
 * category_gene.java   
 
-Áúº´ Áß '³ôÀ½'¿¡ ÇØ´çÇÏ´Â Ç×¸ñÀ» ÃßÃâÇÏ¿© º¯¼ö¿¡ ÀúÀå 
+ì§ˆë³‘ ì¤‘ 'ë†’ìŒ'ì— í•´ë‹¹í•˜ëŠ” í•­ëª©ì„ ì¶”ì¶œí•˜ì—¬ ë³€ìˆ˜ì— ì €ìž¥ 
 
 * category.java   
 
-DB°¡°ø ¹× ÃßÃµ ½ÄÇ°&Á¦Ç° ¾Ë°í¸®Áò ºÎºÐ
+DBê°€ê³µ ë° ì¶”ì²œ ì‹í’ˆ&ì œí’ˆ ì•Œê³ ë¦¬ì¦˜ ë¶€ë¶„
 
 * mixpage.java   
 
-pdfÆÄÀÏ ÀúÀåÇÒ À§Ä¡ ÁöÁ¤ ¹× Æú´õ »ý¼º, ÆÄÀÏ»ý¼º, 2°³ÀÇ pdfÆÄÀÏ º´ÇÕ
+pdfíŒŒì¼ ì €ìž¥í•  ìœ„ì¹˜ ì§€ì • ë° í´ë” ìƒì„±, íŒŒì¼ìƒì„±, 2ê°œì˜ pdfíŒŒì¼ ë³‘í•©
 
 * gui.java   
 
-java¿¡¼­ Á¦°øÇÏ´Â gui (Å°°ª ÀÔ·Â¶õ)
+javaì—ì„œ ì œê³µí•˜ëŠ” gui (í‚¤ê°’ ìž…ë ¥ëž€)

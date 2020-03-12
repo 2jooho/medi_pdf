@@ -32,7 +32,8 @@
 
 <img src="./readme_img/pdf1.png" width="350px" height="500px" alt="pdf"><img>
 <img src="./readme_img/pdf2.png" width="350px" height="500px" alt="pdf"><img>
-<img src="./readme_img/pdf3.png" width="350px" height="500px" alt="pdf"><img><br/>
+<img src="./readme_img/pdf3.png" width="350px" height="500px" alt="pdf"><img>
+<img src="./readme_img/pdf4.png" width="350px" height="500px" alt="pdf"><img><br/>
 
 ***
 
